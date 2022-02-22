@@ -5,6 +5,7 @@ import EventListener from './components/EventListener.vue';
 import TemplateConditional from './components/TemplateConditional.vue';
 import TemplateLoop from './components/TemplateLoop.vue';
 import Computed from './components/Computed.vue';
+import CreateCustomEvent from './components/CreateCustomEvent.vue';
 </script>
 
 <template>
@@ -13,6 +14,6 @@ import Computed from './components/Computed.vue';
   <EventListener />
   <TemplateConditional />
   <TemplateLoop />
-  <Computed />
+  <CreateCustomEvent />
 </template>
 
