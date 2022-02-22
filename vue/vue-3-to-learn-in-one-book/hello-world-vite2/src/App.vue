@@ -6,6 +6,7 @@ import TemplateConditional from './components/TemplateConditional.vue';
 import TemplateLoop from './components/TemplateLoop.vue';
 import Computed from './components/Computed.vue';
 import CreateCustomEvent from './components/CreateCustomEvent.vue';
+import SlotParent from './components/SlotParent.vue';
 </script>
 
 <template>
@@ -15,5 +16,6 @@ import CreateCustomEvent from './components/CreateCustomEvent.vue';
   <TemplateConditional />
   <TemplateLoop />
   <CreateCustomEvent />
+  <SlotParent />
 </template>
 
